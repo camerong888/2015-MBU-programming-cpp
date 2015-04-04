@@ -4,29 +4,22 @@
 using namespace std;
 
 int main(void){
+int a=1; 
+cout << "pick a number\n";
+cin >> a; 
 
-	srand( time( NULL) ); // seed random number from time
-	int random_number = 1 + (rand() % 10); // random number between 1 and 10
-	// declare variable to store guess of user and set to 0
-	// declare variable as counter for number of guesses
 
-	
-	for(;;)
-	{
-		// increment guess counter
-
-		// read input from user
-		//
-		
-		// compare input from user to random number
-		// print out winner, too high or too low message
-		//
-
-	}
-
-	// print message with number of guesses
-	//
-	
-
+if (a<5)
+{
+	cout << "goodnight world\n";
+}
+else if (a>5)
+{
+	cout << "hello world\n"; 
+}
+else if (a==5)
+{
+	cout << "good afternoon\n";
+}
 	return 0;
 }
